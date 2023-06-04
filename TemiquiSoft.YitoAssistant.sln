@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestApi", "RestApi", "{D39779AE-C1B3-46E3-B95E-CD802A6B75F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemiquiSoft.YitoAssistant.WebApi", "src\RestApi\temiquiSoft.yitoAssistant.WebApi\TemiquiSoft.YitoAssistant.WebApi.csproj", "{93D2EFB1-817F-4CD7-B532-312FA123A9BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{16BD7121-5877-494E-81D2-0FBB81B2134E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Application", "Windows Application", "{8B471779-89E8-4ACD-8702-43E4EEA1DDAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemiquiSoft.YitoAssistant.Application", "src\Core\temiquiSoft.yitoAssistant.Application\TemiquiSoft.YitoAssistant.Application.csproj", "{E4BDEF04-1FA1-4E83-8E6A-39908D21E3DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemiquiSoft.YitoAssistant.Tts.AzureNeural", "src\Core\temiquiSoft.yitoAssistant.tts.AzureNeural\TemiquiSoft.YitoAssistant.Tts.AzureNeural.csproj", "{F822C39F-848D-46FC-AC57-86B61C6154E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemiquiSoft.YitoAssistant.Tts.Google", "src\Core\TemiquiSoft.YitoAssistant.Tts.Google\TemiquiSoft.YitoAssistant.Tts.Google.csproj", "{6DDCEE0C-2CAF-4641-9A05-23B1A3DE7F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemiquiSoft.YitoAssistant.Completion.ChatGpt", "src\Core\TemiquiSoft.YitoAssistant.Completion.ChatGpt\TemiquiSoft.YitoAssistant.Completion.ChatGpt.csproj", "{682D6536-75CB-4FC1-9B84-3576D6FD5B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D2EFB1-817F-4CD7-B532-312FA123A9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D2EFB1-817F-4CD7-B532-312FA123A9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D2EFB1-817F-4CD7-B532-312FA123A9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D2EFB1-817F-4CD7-B532-312FA123A9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BDEF04-1FA1-4E83-8E6A-39908D21E3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BDEF04-1FA1-4E83-8E6A-39908D21E3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BDEF04-1FA1-4E83-8E6A-39908D21E3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BDEF04-1FA1-4E83-8E6A-39908D21E3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F822C39F-848D-46FC-AC57-86B61C6154E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F822C39F-848D-46FC-AC57-86B61C6154E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F822C39F-848D-46FC-AC57-86B61C6154E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F822C39F-848D-46FC-AC57-86B61C6154E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDCEE0C-2CAF-4641-9A05-23B1A3DE7F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDCEE0C-2CAF-4641-9A05-23B1A3DE7F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDCEE0C-2CAF-4641-9A05-23B1A3DE7F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDCEE0C-2CAF-4641-9A05-23B1A3DE7F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682D6536-75CB-4FC1-9B84-3576D6FD5B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682D6536-75CB-4FC1-9B84-3576D6FD5B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682D6536-75CB-4FC1-9B84-3576D6FD5B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682D6536-75CB-4FC1-9B84-3576D6FD5B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93D2EFB1-817F-4CD7-B532-312FA123A9BC} = {D39779AE-C1B3-46E3-B95E-CD802A6B75F5}
+		{E4BDEF04-1FA1-4E83-8E6A-39908D21E3DD} = {16BD7121-5877-494E-81D2-0FBB81B2134E}
+		{F822C39F-848D-46FC-AC57-86B61C6154E9} = {16BD7121-5877-494E-81D2-0FBB81B2134E}
+		{6DDCEE0C-2CAF-4641-9A05-23B1A3DE7F85} = {16BD7121-5877-494E-81D2-0FBB81B2134E}
+		{682D6536-75CB-4FC1-9B84-3576D6FD5B94} = {16BD7121-5877-494E-81D2-0FBB81B2134E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B1E15F-5197-4A85-A641-55AB6846594E}
+	EndGlobalSection
+EndGlobal
